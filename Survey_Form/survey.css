@@ -1,0 +1,54 @@
+body {
+   margin: auto; 
+   background-color: mediumaquamarine;
+   height: 100vh;
+   width: 100%;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#form {
+    background-color: white;
+    width: 75%;
+    margin: 0 auto 30px auto;
+    border-radius: 2px;
+}
+
+#submit {
+    background-color: rgb(12, 201, 214);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#name-label {
+    float: left;
+}
+
+#email-label {
+    float: left;
+}
+
+#number-label {
+    float: left; 
+}
+
+.label {
+    float: left; 
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    border-width: 10px;
+}
+
+

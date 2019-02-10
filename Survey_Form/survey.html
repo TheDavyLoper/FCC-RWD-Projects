@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Survey Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="survey.css" />
+    </head>
+    <body>
+        <div id="main">
+            <h1 id="title">Survey Form</h1>
+            <div id="form">
+                <br>
+                <p id="description">Please Let Us Know How We Can Improve Freecodecamp</p>
+                <form id="survey-form">
+                    <table>
+                        <tr>
+                            <td><label for="name" id="name-label">* Name:</label></td>
+                            <td><input type="text" id="name" placeholder="Enter your name" required>
+                        </tr>
+                        <tr>
+                            <td><label for="email" id="email-label">* Email:</label></td>
+                            <td><input type="email" id="email" placeholder="Enter your email" required/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="number" id="number-label">* Age:</label></td>
+                            <td><input type="number" id="number" max="50" min="18" placeholder="Age" required/></td>
+                        </tr>
+                        <tr>
+                            <td><label class="label">Which option best describes your <br><span class="right">current role?</span></label></td>
+                            <td><select id="dropdown">
+                                    <option>Student</option>
+                                    <option>Graduate</option>
+                                    <option>Worker</option>
+                                    <option>Retired</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label class="label">How likely is that you would<br><span class="right">recommend freecodecamp to a</span><br><span class="right">friend?</span></label></td>
+                            <td><input type="radio" name="recommend" value="Definitely" />Definitely <br>
+                                <input type="radio" name="recommend" value="Maybe"/>Maybe <br>
+                                <input type="radio" name="recommend" value="Not Sure"/>Not Sure
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label class="label">What do you like most in FCC:</label></td>
+                            <td><select id="likemost">
+                                    <option>Tutorials</option>
+                                    <option>Projects</option>
+                                    <option>Forum</option>
+                                    <option>Certificate</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label class="label">Things that should be improved in the <br><span class="right">future</span> <br><span class="right">(Check all that apply):</span></label></td>
+                            <td><input type="checkbox" name="improve" value="improve"/>Front-end projects <br>
+                                <input type="checkbox" name="improve" value="improve"/>Back-end projects <br>
+                                <input type="checkbox" name="improve" value="improve"/>Data Visualization <br>
+                                <input type="checkbox" name="improve" value="improve"/>Challenges <br>
+                                <input type="checkbox" name="improve" value="improve"/>Open Source Community<br>
+                                <input type="checkbox" name="improve" value="improve"/>Gitter help rooms <br>
+                                <input type="checkbox" name="improve" value="improve"/>Videos<br>
+                                <input type="checkbox" name="improve" value="improve"/>City Meetups <br>
+                                <input type="checkbox" name="improve" value="improve"/>Wiki<br>
+                                <input type="checkbox" name="improve" value="improve"/>Forum <br>
+                                <input type="checkbox" name="improve" value="improve"/>Additional Courses
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label class="label">Any comments or suggestion?</label></td>
+                            <td><textarea  placeholder="Enter your comments here..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td><td><input type="submit" value="Submit" id="submit"></td><td></td>
+                        </tr>
+                    </table>        
+                </form>
+            </div>      
+        </div>
+    </body>    
+</html>
